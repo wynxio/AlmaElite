@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import {  Telephone } from 'react-bootstrap-icons';
 
 const ContactUsForm = () => {
   const [formData, setFormData] = useState({
@@ -149,9 +150,14 @@ const ContactUsForm = () => {
           </div>
 
           <div className="col-lg-6">
-            <div className="contact-image style2">
-              <img src="assets/img/normal/contact-image.jpg" alt="Contact Us" />
+            <div className="contactMeContainer">
+                <img src="assets/img/contactme.png" className="contactMeImg"/>
             </div>
+            
+            {/* <div className="contact-image style2"> */}
+              {/* <Telephone   className="contactUsIcon"></Telephone> */}
+              {/* <img src="assets/img/normal/contact-image.jpg" alt="Contact Us" /> */}
+            {/* </div> */}
           </div>
         </div>
       </div>

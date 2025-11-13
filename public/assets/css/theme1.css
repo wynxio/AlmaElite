@@ -26566,3 +26566,28 @@ span.select2-selection.select2-selection--single:focus {
         max-height: 100px;
         max-width: 100px;
       }
+
+      .contactUsIcon{
+        width:80%;
+        height:80%;
+        color:var(--theme-color)
+      }
+      .contactMeContainer{
+        max-height: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .contactMeImg{
+        max-height: 100%;
+        max-width: 100%;
+        background-color:var(--theme-color);
+        border-radius: 30px;
+      }
+
+      @media (max-width: 999px) {
+        .contactMeImg{
+          display: none;
+        }
+      }
