@@ -56,8 +56,8 @@ export default function TestimonialSlider() {
         </div>
         <div className="testimonialsectioncontainer">
           <Slider {...settings}>
-            {testimonials.map((item) => (
-              <div>
+            {testimonials.map((item,index) => (
+              <div key={index}>
                 <div key={item.id} className="testimonial-grid">
                   <div className="testimonial-author">
                     <div className="author-inner">
