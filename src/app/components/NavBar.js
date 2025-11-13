@@ -55,71 +55,19 @@ export const NavBar = () => {
                   Dashboard
                 </a>
               </li>
-              
               <li className="nav-item">
                 <a
                   className="nav-link text-white"
-                  
+                 
                   onClick={(e) => {
                     e.preventDefault();
-                    router.push("/manageaccountadmin/manageposts");
+                    router.push("/manageaccountadmin/messagesforme");
                   }}
                 >
-                  Create New Post
+                  Messages
                 </a>
               </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link text-white"
-                  
-                  onClick={(e) => {
-                    e.preventDefault();
-                    router.push("/manageaccountadmin/posthistory");
-                  }}
-                >
-                  Post History
-                </a>
-              </li>
-              
-
-               {/* <li className="nav-item">
-                <a
-                  className="nav-link text-white"
-                  
-                  onClick={(e) => {
-                    e.preventDefault();
-                    router.push("/manageaccountadmin/managefiles");
-                  }}
-                >
-                  Upload Files
-                </a>
-              </li> */}
-
-               <li className="nav-item">
-                <a
-                  className="nav-link text-white"
-                  
-                  onClick={(e) => {
-                    e.preventDefault();
-                    router.push("/manageaccountadmin/uploadedfiles");
-                  }}
-                >
-                  Uploaded Files
-                </a>
-              </li>
-               <li className="nav-item">
-                <a
-                  className="nav-link text-white"
-                  
-                  onClick={(e) => {
-                    e.preventDefault();
-                    router.push("/manageaccountadmin/students");
-                  }}
-                >
-                  Students
-                </a>
-              </li>
-               
+             
               <li className="nav-item">
                 
                 <a

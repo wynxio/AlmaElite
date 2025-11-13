@@ -1,0 +1,87 @@
+*{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+      .preloaderLog {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+      }
+
+      .preloaderLog img {
+         
+        height: auto;
+        animation: pulse 1.8s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(0.9);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .line-btn-readmore{
+        display: none !important;
+      }
+
+    .activityFieldSet{
+      border:1px solid brown;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    .activityLegend{
+      padding: 10px;
+      background-color: bisque;
+      border-radius: 10px 10px 0px 0px;
+      font-size: 1rem !important;
+      font-weight: 700;
+    }
+    .activityUl{
+      padding: 10px;
+      padding-left: 10px !important;
+    }
+    .langChanger{
+
+    }
+    .langChanger a{
+      margin:3px !important;
+      padding:0;
+      cursor: pointer;
+    }
+    .langChanger .active{
+      position: relative;
+    }
+    .langChanger .active::before{
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      width:100%;
+      height:3px;
+      background:var(--theme-color);
+    }
+    .nodisplay{
+      display: none !important;
+    }
+    .rtlDisplay{
+      direction: rtl;
+    }
+    .service-activity-box_icon img{
+      max-height: 65px;
+    }
+    #service-activities .box-title{
+      font-size: 1.2em;
+    }
+    .wrappedFlex{
+      display: flex;
+      flex-wrap: wrap;
+      gap:20px;
+    }

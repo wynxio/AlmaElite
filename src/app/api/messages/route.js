@@ -61,12 +61,12 @@ export async function POST(req) {
     const { name, email, phone, messagetext } = body;
 
     // Validate mandatory fields
-    if (!name || !messagetext) {
+    if (!name || !phone || !messagetext) {
       return withCorsHeaders(
         new Response(
           JSON.stringify({
             success: false,
-            error: "Missing required fields: name or messagetext",
+            error: "Missing required fields: name or message text",
           }),
           { status: 400 }
         )
