@@ -14280,11 +14280,11 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .contact-info:nth-child(2) .contact-info_icon {
-  background-color: var(--title-color);
+  background-color: var(--theme-color);
 }
 
 .contact-info:nth-child(3) .contact-info_icon {
-  background-color: var(--body-color);
+  background-color: var(--theme-color);
 }
 
 .contact-info_icon {
