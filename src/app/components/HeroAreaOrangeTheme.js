@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const HeroArea = () => {
+const HeroAreaOrangeTheme = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
@@ -57,7 +57,7 @@ const HeroArea = () => {
                   transition: "opacity 0.8s ease-in-out",
                 }}
               >
-                <img src="assets/img/bg/hero_overlay_2.png" alt="overlay" />
+                <img src="assets/img/bg/hero_overlay_1.png" alt="" />
               </div>
 
               <div className="container">
@@ -97,4 +97,4 @@ const HeroArea = () => {
   );
 };
 
-export default HeroArea;
+export default HeroAreaOrangeTheme;

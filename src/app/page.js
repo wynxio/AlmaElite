@@ -1,10 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 import HomeIntro from "./components/HomeIntro";
 import { PublicLayout } from "./components/PublicLayout";
-import Link from "next/link";
+import './greentheme.css';
+ 
 
 export default function Home() {
 

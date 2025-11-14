@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
 
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-        <link rel="stylesheet" href="assets/css/theme1.css" />
+        {/* <link rel="stylesheet" href="assets/css/theme1.css" /> */}
 
         {/* <meta name="description" content="Trending IT Training Solution" />
         <meta name="keywords" content="  IT Training, WYNXIO, WYNXIO IT Training, Best IT Training in the world, Fastest growing IT training, programming training, CSS, Python,React " /> */}

@@ -7,9 +7,10 @@ import React from "react";
 import HomeSideMenu from "./HomeSideMenu";
 import MobileMenu from "./MobileMenu";
 import TopHeaderBar from "./TopHeaderBar";
-import HeroArea from "./HeroArea";
-import HomeFeatures from "./HomeFeatures";
-import HomeAboutUs from "./HomeAboutUs";
+import HeroAreaOrangeTheme from "./HeroAreaOrangeTheme";
+import HomeFeaturesOrangeTheme from "./HomeFeaturesOrangeTheme"
+
+ 
 import HomeServices from "./HomeServices";
 import HomeGetConsultation from "./HomeGetConsultation";
 import HomeHowWork from "./HomeHowWork";
@@ -21,10 +22,13 @@ import HomeClients from "./HomeClients";
 import ContactInformation from "./ContactInformation";
 import ContactUsForm from "./ContactUsForm";
 import HomeFooter from "./HomeFooter";
+ 
+import HomeAboutUsOrangeTheme from "./HomeAboutUsOrangeTheme";
+import HomeWhyOrangeTheme from "./HomeWhyOrangeTheme";
 // import HomeScrollTop from "./HomeScrollTop";
 
 
-const HomeIntro = () => {
+const HomeIntroRedTheme = () => {
   return (
     <>
       <div id="preloaderLogo" className="preloaderLog">
@@ -38,11 +42,11 @@ const HomeIntro = () => {
         
         <TopHeaderBar></TopHeaderBar>            
 
-        <HeroArea></HeroArea>
+        <HeroAreaOrangeTheme></HeroAreaOrangeTheme>
         
-        <HomeFeatures></HomeFeatures>
+        <HomeFeaturesOrangeTheme></HomeFeaturesOrangeTheme>
          
-        <HomeAboutUs></HomeAboutUs>
+        <HomeAboutUsOrangeTheme></HomeAboutUsOrangeTheme>
    
         <HomeServices></HomeServices>              
         
@@ -50,7 +54,7 @@ const HomeIntro = () => {
 
         <HomeHowWork></HomeHowWork>
 
-        <HomeWhy></HomeWhy> 
+        <HomeWhyOrangeTheme></HomeWhyOrangeTheme> 
 
         <TestimonialSlider></TestimonialSlider>  
 
@@ -73,4 +77,4 @@ const HomeIntro = () => {
   );
 };
 
-export default HomeIntro;
+export default HomeIntroRedTheme;
