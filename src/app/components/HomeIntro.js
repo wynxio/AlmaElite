@@ -34,7 +34,7 @@ const HomeIntro = () => {
   
         <HomeSideMenu></HomeSideMenu>
 
-        <MobileMenu></MobileMenu>
+        {/* <MobileMenu></MobileMenu> */}
         
         <TopHeaderBar></TopHeaderBar>            
 

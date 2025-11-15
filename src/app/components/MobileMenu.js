@@ -1,12 +1,28 @@
-import React from 'react'
+import React from "react";
+import {
+  gotoHome,
+  gotoAboutUs,
+  gotoContactUs,
+  gotoHowWeWork,
+  gotoWhyUs,
+  closeMobileMenu,
+  closeSideBarIcon,
+  changeLanguageToArabic,
+  changeLanguageToEnglish,
+} from "./../lib/menus";
 
 const MobileMenu = () => {
+  function showSideBar(event) {
+    event.preventDefault();
+  }
   return (
+    
      <div className="th-menu-wrapper">
           <div className="th-menu-area text-center">
-            <button className="th-menu-toggle" id="mobilemenusidebarclose">
+            <button className="th-menu-toggle" id="mobilemenusidebarclose" >
               <i className="fal fa-times"></i>
             </button>
+
             <div className="mobile-logo">
               <a>
                 <img src="assets/img/logo/LogoAlma1.png" alt="Alma Elite" />
@@ -22,7 +38,7 @@ const MobileMenu = () => {
                     }}
                     data-lang="en"
                   >
-                    Home
+                    Home1
                   </a>
                   <a
                     onClick={(event) => {
@@ -78,8 +94,8 @@ const MobileMenu = () => {
               </ul>
             </div>
           </div>
-        </div>
-  )
-}
+     </div>
+  );
+};
 
-export default MobileMenu
+export default MobileMenu;

@@ -1,9 +1,11 @@
 "use client";
 
-import HomeIntro from "./components/HomeIntro";
-import { PublicLayout } from "./components/PublicLayout";
-import './greentheme.css';
+import HomeIntroRedTheme from './components/HomeIntroRedTheme';
  
+import { PublicLayout } from "./components/PublicLayout";
+ 
+
+ import './orangetheme.css';
 
 export default function Home() {
 
@@ -11,7 +13,7 @@ export default function Home() {
   return (
     <PublicLayout>
   
-      <HomeIntro />
+      <HomeIntroRedTheme/>
 
     </PublicLayout>
   );

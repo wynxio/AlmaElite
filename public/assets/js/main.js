@@ -148,7 +148,7 @@
     };
 
 
-    $(".th-menu-wrapper").thmobilemenu();
+    //$(".th-menu-wrapper").thmobilemenu();
 
     /*---------- 04. Sticky fix ----------*/
     $(window).scroll(function () {

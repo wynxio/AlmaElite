@@ -36,13 +36,13 @@ const HomeIntroRedTheme = () => {
       </div>
       <div id="originalContent" className="hideOriginal">
   
-        <HomeSideMenu></HomeSideMenu>
+         <HomeSideMenu></HomeSideMenu>  
 
-        <MobileMenu></MobileMenu>
+        {/* <MobileMenu></MobileMenu> */}
         
         <TopHeaderBar></TopHeaderBar>            
 
-        <HeroAreaOrangeTheme></HeroAreaOrangeTheme>
+         <HeroAreaOrangeTheme></HeroAreaOrangeTheme>
         
         <HomeFeaturesOrangeTheme></HomeFeaturesOrangeTheme>
          
@@ -66,9 +66,9 @@ const HomeIntroRedTheme = () => {
 
         <ContactUsForm></ContactUsForm>
 
-        <HomeFooter></HomeFooter>               
+        <HomeFooter></HomeFooter>                
         
-        {/* <HomeScrollTop></HomeScrollTop> */}
+         
 
          
       </div>
